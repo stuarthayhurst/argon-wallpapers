@@ -1,10 +1,15 @@
 SHELL=bash
 WALLPAPERS = $(wildcard ./*.png)
 
-.PHONY: compress
+.PHONY: compress svg-image
 compress:
 	read -ra backgrounds <<< "$$(echo *.png)"; \
 	make "$${backgrounds[@]}" "-j$$(nproc)"
+svg-image:
+	width="3840"; height="2160"; \
+	for svgFile in *.svg; do \
+	  inkscape "--export-filename=$${svgFile/.svg/.png}" -w "$$width" -h "$$height" "$$svgFile" > /dev/null 2>&1; \
+	done
 $(WALLPAPERS): ./%.png: ./Makefile
 	echo "Compressing $@..."; \
 	  optipng --quiet "$@"
