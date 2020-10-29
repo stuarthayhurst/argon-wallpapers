@@ -6,3 +6,5 @@
    - `optipng` and `make` are required
  - To export the svg images, use `make svg-image`
    - Change the `width` and `height` variables in `Makefile` to adjust output resolution
+ - `set-wallpaper.sh` is designed to be used on GNOME, and won't work with other desktop environments
+![Banner](Banner.png)
