@@ -7,6 +7,7 @@
  - To export the svg images, use `make svg-image`
    - Change the `width` and `height` variables in `Makefile` to adjust output resolution
  - `set-wallpaper.sh` is designed to be used on GNOME, and won't work with other desktop environments
+
 ![Banner](docs/Banner.png)
 ## Wallpapers:
 ![Wallpapers](docs/Wallpapers.gif)
