@@ -10,6 +10,8 @@ svg-image:
 	for svgFile in *.svg; do \
 	  inkscape "--export-filename=$${svgFile/.svg/.png}" -w "$$width" -h "$$height" "$$svgFile" > /dev/null 2>&1; \
 	done
+generate-gif:
+	convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 $(WALLPAPERS): ./%.png: ./Makefile
 	echo "Compressing $@..."; \
 	  optipng --quiet "$@"
