@@ -1,7 +1,7 @@
 SHELL=bash
 WALLPAPERS = $(wildcard ./*.png)
 
-.PHONY: compress svg-image $(WALLPAPERS)
+.PHONY: compress svg-image generate-gif $(WALLPAPERS)
 compress:
 	read -ra backgrounds <<< "$$(echo *.png)"; \
 	make "$${backgrounds[@]}" "-j$$(nproc)"
