@@ -112,39 +112,6 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6774"
-       id="radialGradient969"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.27384915,0.07337766,-0.04417297,-0.16485576,143.85927,44.514565)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
-       id="radialGradient971"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.27384915,0.07337766,-0.04417297,-0.16485576,143.85927,44.514565)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
-       id="radialGradient973"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.27384915,0.07337766,-0.04417297,-0.16485576,143.85927,44.514565)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
        id="radialGradient975"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-1.0350204,0.2773329,-0.16695295,-0.62307687,543.72005,168.24402)"
@@ -200,39 +167,6 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6774"
-       id="radialGradient997"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.0350204,0.2773329,-0.16695295,-0.62307687,543.72005,168.24402)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
-       id="radialGradient999"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.27384915,0.07337766,-0.04417297,-0.16485576,143.85927,44.514565)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
-       id="radialGradient1001"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.27384915,0.07337766,-0.04417297,-0.16485576,143.85927,44.514565)"
-       cx="255.10149"
-       cy="147.24631"
-       fx="255.10149"
-       fy="147.24631"
-       r="280.60691" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6774"
        id="radialGradient1089"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(4.5115516,0,0,2.5879592,-1011.8603,-274.07317)"
@@ -241,6 +175,17 @@
        fx="279.76617"
        fy="164.99281"
        r="74.22493" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6774"
+       id="radialGradient930"
+       cx="140.46469"
+       cy="196.84358"
+       fx="140.46469"
+       fy="196.84358"
+       r="43.293739"
+       gradientTransform="matrix(-1.2705338,-4.7416965,4.6666749,-1.2504318,-527.51635,1081.0234)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -249,11 +194,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.46109255"
-     inkscape:cx="770.28679"
-     inkscape:cy="465.6226"
+     inkscape:zoom="0.32604167"
+     inkscape:cx="1055.8228"
+     inkscape:cy="685.50173"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -291,7 +236,7 @@
      id="layer2"
      inkscape:label="Crystals">
     <g
-       id="g1051">
+       id="g922">
       <path
          id="rect1491"
          style="opacity:0.823061;fill:url(#radialGradient949);fill-opacity:1;stroke-width:0.120388;paint-order:stroke fill markers"
@@ -321,18 +266,6 @@
          style="fill:url(#radialGradient967);fill-opacity:1;stroke-width:0.0963105;paint-order:stroke fill markers"
          d="m 156.31604,235.23319 -13.748,7.9375 -26.45833,45.82718 13.748,7.9375 26.45833,-45.82718 z" />
       <path
-         id="rect1593"
-         style="opacity:0.906132;fill:url(#radialGradient969);fill-opacity:1;stroke-width:0.108751;paint-order:stroke fill markers"
-         d="m -9.1673995,140.3258 -4.6395105,17.31523 57.716375,15.46469 17.314707,-4.63951 -12.675196,-12.6752 z" />
-      <path
-         id="rect1599"
-         style="opacity:0.974366;fill:url(#radialGradient971);fill-opacity:1;stroke-width:0.0825299;paint-order:stroke fill markers"
-         d="m 18.436601,128.125 -43.799911,11.73624 3.520715,13.14028 43.799912,-11.73624 9.619051,-9.61905 z" />
-      <path
-         id="rect1605"
-         style="fill:url(#radialGradient973);fill-opacity:1;stroke-width:0.0870008;paint-order:stroke fill markers"
-         d="m -11.702645,142.86105 -10.13995,10.14047 33.801039,33.80052 13.851867,3.71192 -3.711918,-13.85187 z" />
-      <path
          id="rect1611"
          style="fill:url(#radialGradient975);fill-opacity:1;stroke-width:0.0576871;paint-order:stroke fill markers"
          d="m -0.27285157,236.73491 -8.23463973,4.75423 15.8476121,27.44948 8.2346392,4.75425 v -9.50899 z" />
@@ -352,17 +285,33 @@
          id="rect1689"
          style="fill:url(#radialGradient995);fill-opacity:1;stroke-width:0.0318241;paint-order:stroke fill markers"
          d="m 160.01246,271.69402 -1.35754,5.06687 4.5253,16.88942 5.06688,-1.35755 -4.52531,-16.88942 z" />
+    </g>
+    <g
+       id="g908"
+       style="fill-opacity:1;fill:url(#radialGradient930)">
+      <path
+         id="rect1593"
+         style="opacity:0.906132;fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.108751;paint-order:stroke fill markers"
+         d="m -9.1673995,140.3258 -4.6395105,17.31523 57.716375,15.46469 17.314707,-4.63951 -12.675196,-12.6752 z" />
+      <path
+         id="rect1599"
+         style="opacity:0.974366;fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.0825299;paint-order:stroke fill markers"
+         d="m 18.436601,128.125 -43.799911,11.73624 3.520715,13.14028 43.799912,-11.73624 9.619051,-9.61905 z" />
+      <path
+         id="rect1605"
+         style="fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.0870008;paint-order:stroke fill markers"
+         d="m -11.702645,142.86105 -10.13995,10.14047 33.801039,33.80052 13.851867,3.71192 -3.711918,-13.85187 z" />
       <path
          id="rect1695"
-         style="fill:url(#radialGradient997);fill-opacity:1;stroke-width:0.0299977;paint-order:stroke fill markers"
+         style="fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.0299977;paint-order:stroke fill markers;opacity:0.92"
          d="m -1.2097453,198.51399 -1.2795085,4.77593 15.9199588,4.26589 4.775936,-1.27951 -3.495911,-3.49642 z" />
       <path
          id="rect1701"
-         style="fill:url(#radialGradient999);fill-opacity:1;stroke-width:0.0261437;paint-order:stroke fill markers"
+         style="fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.0261437;paint-order:stroke fill markers"
          d="m 6.6078655,195.04288 -12.4400679,7.18251 2.1549073,3.73155 12.4395513,-7.18199 2.1549068,-3.73207 z" />
       <path
          id="rect1707"
-         style="fill:url(#radialGradient1001);fill-opacity:1;stroke-width:0.0261437;paint-order:stroke fill markers"
+         style="fill:url(#radialGradient930);fill-opacity:1.0;stroke-width:0.0261437;paint-order:stroke fill markers"
          d="m -1.2097453,198.51399 -3.0473594,3.04736 10.1575198,10.157 4.1625369,1.11518 -1.1156944,-4.16254 z" />
     </g>
     <g
