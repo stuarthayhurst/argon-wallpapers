@@ -4,11 +4,11 @@ WALLPAPERS = $(wildcard ./*.png)
 .PHONY: compress svg-image generate-gif $(WALLPAPERS)
 generate-all:
 	make svg-image
-	make compress
+	make compress "-j$$(nproc)"
 	make generate-gif
 compress:
 	read -ra backgrounds <<< "$$(echo *.png)"; \
-	make "$${backgrounds[@]}" "-j$$(nproc)"
+	"$(MAKE)" "$${backgrounds[@]}"
 svg-image:
 	width="3840"; height="2160"; \
 	for svgFile in *.svg; do \
