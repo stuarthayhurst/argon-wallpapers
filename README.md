@@ -11,7 +11,7 @@
  - To re-export the svg images, use `make svg-image`
    - Change the `width` and `height` variables in `Makefile` to adjust output resolution
    - `inkscape` is required
- - `set-wallpaper.sh` is designed to be used on GNOME, and won't work with other desktop environments
+ - `makr set-wallpaper` is designed to be used on GNOME, and won't work with other desktop environments
  - `make compress` and `make svg-image` support multiple cores using `-j[CORES]`
 
 ## Wallpapers:

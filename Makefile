@@ -7,6 +7,18 @@ generate-all:
 	make svg-image "-j$$(nproc)"
 	make compress "-j$$(nproc)"
 	make generate-gif
+set-wallpaper:
+	ls ./*.png; \
+	echo "Enter the filename of the wallpaper to use:"; \
+	read -r wallpaper; \
+	if [[ -f "$$wallpaper" ]]; then \
+	  mkdir -p ~/Pictures/Wallpapers; \
+	  cp "$$wallpaper" ~/Pictures/Wallpapers; \
+	  gsettings set org.gnome.desktop.background picture-uri "file:///home/$$USER/Pictures/Wallpapers/$$wallpaper"; \
+	  gsettings set org.gnome.desktop.background picture-options 'zoom'; \
+	else \
+	  echo "Invalid filename"; \
+	fi
 compress:
 	read -ra backgrounds <<< "$$(echo *.png)"; \
 	"$(MAKE)" "$${backgrounds[@]}"
