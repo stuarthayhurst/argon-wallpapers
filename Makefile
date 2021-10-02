@@ -1,6 +1,6 @@
 SHELL=bash
-WALLPAPERS = $(wildcard ./*.png)
-SVG = $(wildcard ./*.svg)
+WALLPAPERS = $(wildcard ./*.png) $(wildcard ./old/*.png)
+SVG = $(wildcard ./*.svg) $(wildcard ./old/*.svg)
 
 .PHONY: generate-all generate-gif set-wallpaper wallpapers compress $(SVG) $(WALLPAPERS)
 generate-all:
