@@ -21,7 +21,7 @@
     <ns0:radialGradient ns2:collect="always" ns3:href="#linearGradient17275" id="radialGradient9399" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9950242,0,0,0.99889934,15.004187,13.873017)" cx="899.58331" cy="132.29167" fx="899.58331" fy="132.29167" r="66.145836" />
     <ns0:linearGradient ns2:collect="always" ns3:href="#linearGradient83493" id="linearGradient83495" x1="506.88211" y1="-101.80145" x2="506.88211" y2="564.74805" gradientUnits="userSpaceOnUse" />
   </ns0:defs>
-  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer7" ns2:document-units="px" ns2:cy="925.86794" ns2:cx="2094.8038" ns2:zoom="0.22627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showguides="false" ns2:pagecheckerboard="0" />
+  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer4" ns2:document-units="px" ns2:cy="620.92814" ns2:cx="2611.8757" ns2:zoom="0.22627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showguides="false" ns2:pagecheckerboard="0" />
   <ns0:g ns2:groupmode="layer" id="layer1" ns2:label="Background" style="display:inline">
     <ns0:g ns2:groupmode="layer" id="layer5" ns2:label="Colour">
       <ns0:rect style="display:inline;opacity:1;fill:url(#linearGradient9616);fill-opacity:1;stroke:none;stroke-width:2.42983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="rect957" width="1016" height="571.5" x="-3.5527137e-15" y="0" />
@@ -288,21 +288,14 @@
       </ns0:g>
     </ns0:g>
     <ns0:g ns2:groupmode="layer" id="layer4" ns2:label="Clouds">
-      <ns0:g id="g135478">
-        <ns0:circle style="fill:#ffffff;stroke:none;stroke-width:0.321996;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1843" cx="912.55743" cy="347.69128" r="12.628716" />
-        <ns0:circle style="fill:#ffffff;stroke:none;stroke-width:0.303576;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="path1501" cx="886.53882" cy="352.52686" r="11.90625" />
-        <ns0:circle style="fill:#ececec;stroke:none;stroke-width:0.269545;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1973" cx="881.78217" cy="339.99951" r="10.571568" />
-        <ns0:circle style="fill:#ffffff;stroke:none;stroke-width:0.269545;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1953" cx="891.71973" cy="335.33664" r="10.571568" />
-        <ns0:circle style="fill:#e6e6e6;stroke:none;stroke-width:0.259822;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1823" cx="905.20422" cy="335.84818" r="10.190235" />
-        <ns0:circle style="fill:#ececec;stroke:none;stroke-width:0.259822;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1803" cx="898.1853" cy="350.01126" r="10.190235" />
+      <ns0:g id="g3925">
+        <ns0:circle style="fill:#f2f2f2;stroke:none;stroke-width:0.321996;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1843" cx="912.55743" cy="347.69128" r="12.628716" />
+        <ns0:circle style="fill:#f2f2f2;stroke:none;stroke-width:0.303576;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="path1501" cx="886.53882" cy="352.52686" r="11.90625" />
+        <ns0:circle style="fill:#e6e6e6;stroke:none;stroke-width:0.269545;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1973" cx="881.78217" cy="339.99951" r="10.571568" />
+        <ns0:circle style="fill:#f2f2f2;stroke:none;stroke-width:0.269545;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1953" cx="891.71973" cy="335.33664" r="10.571568" />
+        <ns0:circle style="fill:#e1e1e1;stroke:none;stroke-width:0.259822;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;fill-opacity:1" id="circle1823" cx="905.20422" cy="335.84818" r="10.190235" />
+        <ns0:circle style="fill:#e6e6e6;stroke:none;stroke-width:0.259822;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle1803" cx="898.1853" cy="350.01126" r="10.190235" />
       </ns0:g>
-      <ns0:circle style="fill:#e9e9e9;fill-opacity:1;stroke:none;stroke-width:0.398964;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2748" cx="-321.88992" cy="370.66727" r="15.647396" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:0.376141;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2750" cx="-355.69724" cy="379.85205" r="14.752236" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#ebebeb;fill-opacity:1;stroke:none;stroke-width:0.358562;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle4653" cx="-343.93341" cy="348.47488" r="14.06284" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.333975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2752" cx="-364.97739" cy="357.69916" r="13.098521" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.333975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2754" cx="-343.38528" cy="359.03925" r="13.098521" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.321928;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2756" cx="-322.24841" cy="356.46289" r="12.626038" transform="scale(-1,1)" />
-      <ns0:circle style="fill:#e5e5e5;fill-opacity:1;stroke:none;stroke-width:0.321928;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2758" cx="-337.12802" cy="376.70834" r="12.626038" transform="scale(-1,1)" />
       <ns0:g id="g135783">
         <ns0:circle style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.129548;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2762" cx="729.0509" cy="208.73949" r="5.0808859" />
         <ns0:circle style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.122137;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2764" cx="718.58289" cy="210.68497" r="4.7902174" />
@@ -323,6 +316,15 @@
         <ns0:circle style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.128771;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle3768" cx="262.32727" cy="253.55067" r="5.0504103" />
         <ns0:circle style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.114336;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle3764" cx="263.80292" cy="248.59215" r="4.4842634" />
         <ns0:circle style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.114336;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle3766" cx="269.37534" cy="250.87956" r="4.4842634" />
+      </ns0:g>
+      <ns0:g id="g3917">
+        <ns0:circle style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.398964;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2748" cx="-321.88992" cy="370.66727" r="15.647396" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#dbdbdb;fill-opacity:1;stroke:none;stroke-width:0.376141;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2750" cx="-355.69724" cy="379.85205" r="14.752236" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.358562;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle4653" cx="-343.93341" cy="348.47488" r="14.06284" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.333975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2752" cx="-364.97739" cy="357.69916" r="13.098521" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.321928;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2756" cx="-322.24841" cy="356.46289" r="12.626038" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#e5e5e5;fill-opacity:1;stroke:none;stroke-width:0.321928;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2758" cx="-337.12802" cy="376.70834" r="12.626038" transform="scale(-1,1)" />
+        <ns0:circle style="fill:#d9d9d9;fill-opacity:1;stroke:none;stroke-width:0.333975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="circle2754" cx="-343.38528" cy="359.03925" r="13.098521" transform="scale(-1,1)" />
       </ns0:g>
     </ns0:g>
   </ns0:g>
