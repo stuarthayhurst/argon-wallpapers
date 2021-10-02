@@ -8,11 +8,11 @@
 ## Generating wallpapers
  - To recompress the wallpapers in this repository, use `make compress`
    - `optipng` and `make` are required
- - To re-export the svg images, use `make svg-image`
-   - Change the `width` and `height` variables in `Makefile` to adjust output resolution
+ - To re-export the svg images, use `make wallpapers`
+   - Change the `-w` and `-h` arguments in `Makefile` to adjust output resolution
    - `inkscape` is required
  - `makr set-wallpaper` is designed to be used on GNOME, and won't work with other desktop environments
- - `make compress` and `make svg-image` support multiple cores using `-j[CORES]`
+ - `make wallpapers`, `make compress` and `make generate-all` support multiple cores using `-j[CORES]`
 
 ## Wallpapers:
 ![Wallpapers](docs/Wallpapers.gif)
