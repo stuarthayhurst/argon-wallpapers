@@ -10,10 +10,9 @@ generate-all:
 generate-gif:
 	convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 set-wallpaper:
-	ls ./*.png; \
-	echo "Enter the filename of the wallpaper to use:"; \
-	read -r wallpaper; \
-	if [[ -f "$$wallpaper" ]]; then \
+	@ls ./*.png
+	@echo "Enter the filename of the wallpaper to use:"
+	@read -r wallpaper; if [[ -f "$$wallpaper" ]]; then \
 	  mkdir -p ~/Pictures/Wallpapers; \
 	  cp "$$wallpaper" ~/Pictures/Wallpapers; \
 	  gsettings set org.gnome.desktop.background picture-uri "file:///home/$$USER/Pictures/Wallpapers/$$wallpaper"; \
