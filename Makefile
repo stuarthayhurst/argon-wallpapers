@@ -2,7 +2,7 @@ SHELL=bash
 WALLPAPERS = $(wildcard ./*.png) $(wildcard ./old/*.png)
 SVG = $(wildcard ./*.svg) $(wildcard ./old/*.svg)
 
-.PHONY: generate-all generate-gif set-wallpaper wallpapers compress $(SVG) $(WALLPAPERS)
+.PHONY: generate-all generate-gif set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
 	$(MAKE) wallpapers
 	$(MAKE) compress
@@ -25,6 +25,8 @@ wallpapers:
 	$(MAKE) $(SVG)
 compress:
 	$(MAKE) $(WALLPAPERS)
+prune:
+	./clean-svgs.py
 $(SVG):
 	echo "Generating $@..."; \
 	svgFile="$@"; \
