@@ -20,7 +20,7 @@ set-wallpaper:
 	else \
 	  echo "Invalid filename"; \
 	fi
-wallpapers:
+wallpapers: prune
 	$(MAKE) $(SVG)
 compress:
 	$(MAKE) $(WALLPAPERS)
