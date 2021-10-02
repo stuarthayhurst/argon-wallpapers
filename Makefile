@@ -2,11 +2,13 @@ SHELL=bash
 WALLPAPERS = $(wildcard ./*.png)
 SVG = $(wildcard ./*.svg)
 
-.PHONY: compress svg-image generate-gif $(WALLPAPERS) $(SVG)
+.PHONY: generate-all generate-gif set-wallpaper wallpapers compress $(SVG) $(WALLPAPERS)
 generate-all:
-	make svg-image "-j$$(nproc)"
-	make compress "-j$$(nproc)"
-	make generate-gif
+	$(MAKE) wallpapers
+	$(MAKE) compress
+	$(MAKE) generate-gif
+generate-gif:
+	convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 set-wallpaper:
 	ls ./*.png; \
 	echo "Enter the filename of the wallpaper to use:"; \
@@ -19,18 +21,14 @@ set-wallpaper:
 	else \
 	  echo "Invalid filename"; \
 	fi
+wallpapers:
+	$(MAKE) $(SVG)
 compress:
-	read -ra backgrounds <<< "$$(echo *.png)"; \
-	"$(MAKE)" "$${backgrounds[@]}"
-svg-image:
-	read -ra backgrounds <<< "$$(echo *.svg)"; \
-	"$(MAKE)" "$${backgrounds[@]}"
-generate-gif:
-	convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
+	$(MAKE) $(WALLPAPERS)
 $(SVG):
 	echo "Generating $@..."; \
-	width="3840"; height="2160"; svgFile="$@"; \
-	inkscape "--export-filename=$${svgFile/.svg/.png}" -w "$$width" -h "$$height" "$$svgFile" > /dev/null 2>&1
-$(WALLPAPERS): ./%.png: ./Makefile
+	svgFile="$@"; \
+	inkscape "--export-filename=$${svgFile/.svg/.png}" -w "3840" -h "2160" "$$svgFile" > /dev/null 2>&1
+$(WALLPAPERS):
 	echo "Compressing $@..."; \
 	  optipng --quiet "$@"
