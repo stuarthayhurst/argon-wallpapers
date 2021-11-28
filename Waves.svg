@@ -1,0 +1,22 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" ns1:docname="Waves.svg" id="svg8" version="1.1" viewBox="0 0 1016 571.50001" height="2160" width="3840">
+  <ns0:defs id="defs2">
+    <ns0:linearGradient ns2:collect="always" id="linearGradient9614">
+      <ns0:stop style="stop-color:#2dbbb3;stop-opacity:1" offset="0" id="stop9610" />
+      <ns0:stop style="stop-color:#2d82bb;stop-opacity:1" offset="1" id="stop9612" />
+    </ns0:linearGradient>
+    <ns0:linearGradient ns2:collect="always" ns3:href="#linearGradient9614" id="linearGradient9616" x1="497.31802" y1="-34.427197" x2="497.31802" y2="587.14044" gradientUnits="userSpaceOnUse" />
+  </ns0:defs>
+  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer2" ns2:document-units="px" ns2:cy="1089.3864" ns2:cx="2267.1611" ns2:zoom="0.22627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showguides="false" ns2:pagecheckerboard="0" />
+  <ns0:g ns2:groupmode="layer" id="layer1" ns2:label="Background" style="display:inline">
+    <ns0:g ns2:groupmode="layer" id="layer5" ns2:label="Colour" style="display:inline">
+      <ns0:rect style="display:inline;opacity:1;fill:url(#linearGradient9616);fill-opacity:1;stroke:none;stroke-width:2.42983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="rect957" width="1016" height="571.5" x="-3.5527137e-15" y="0" />
+      <ns0:rect style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.42983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="rect1903" width="1016" height="571.5" x="-3.5527137e-15" y="0" />
+    </ns0:g>
+    <ns0:g ns2:groupmode="layer" id="layer2" ns2:label="Waves" style="display:inline;opacity:1">
+      <ns0:path style="opacity:0.1;fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 0,314.39243 c 18.599341,0 -11.065246,-87.76543 281.26877,-105.6247 C 409.13067,200.9564 456.14517,91.031975 650.99202,121.18849 779.45828,141.07126 1016,0 1016,0 H 0 Z" id="path3454" ns1:nodetypes="cssccc" />
+      <ns0:path style="opacity:0.2;fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 1016,456.36861 c -158.79205,0 -137.32366,-75.72776 -281.26877,-75.72776 -132.32747,0 -230.30533,5.45035 -369.72325,-133.96757 C 252.52343,134.18873 0,245.61092 0,245.61092 V 571.5 h 1016 z" id="path5017" ns1:nodetypes="csscccc" />
+      <ns0:path style="opacity:0.2;fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 782.40029,389.61447 C 843.76737,283.32357 1016,245.61092 1016,245.61092 V 571.5 l -596.78846,0 C 506.95969,402.97697 716.64752,503.5016 782.40029,389.61447 Z" id="path5922" ns1:nodetypes="scccs" />
+      <ns0:path style="opacity:0.1;fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 136.78048,501.72985 C 92.321188,480.98869 114.28938,377.11086 0,377.11086 V 571.5 l 293.94424,0 C 255.77689,478.15167 197.19568,529.91476 136.78048,501.72985 Z" id="path6726" ns1:nodetypes="scccs" />
+    </ns0:g>
+  </ns0:g>
+</ns0:svg>
