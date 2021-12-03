@@ -1,4 +1,5 @@
 ## argon-wallpapers
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/stuartahayhurst)
  - This repository is a collection of wallpapers, designed for use with my other themes
  - All .gif, .xcf, .svg and .png files are licensed under Creative Commons Attribution Share Alike 4.0 International
  - Please credit me if you use my work, a link to my GitHub profile or this repository is enough :)
