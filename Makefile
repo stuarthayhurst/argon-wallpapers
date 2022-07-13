@@ -1,14 +1,15 @@
-SHELL=bash
+SHELL = bash
 WALLPAPERS = $(wildcard ./*.png) $(wildcard ./old/*.png)
 SVG = $(wildcard ./*.svg) $(wildcard ./old/*.svg)
 
 .PHONY: generate-all generate-gif set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
-	$(MAKE) wallpapers
-	$(MAKE) compress
-	$(MAKE) generate-gif
+	@$(MAKE) wallpapers
+	@$(MAKE) compress
+	@$(MAKE) generate-gif
 generate-gif:
-	convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
+	@echo "Generating gif..."
+	@convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 set-wallpaper:
 	@ls ./*.png
 	@echo "Enter the filename of the wallpaper to use:"
@@ -22,15 +23,15 @@ set-wallpaper:
 	  echo "Invalid filename"; \
 	fi
 wallpapers: prune
-	$(MAKE) $(SVG)
+	@$(MAKE) $(SVG)
 compress:
-	$(MAKE) $(WALLPAPERS)
+	@$(MAKE) $(WALLPAPERS)
 prune:
 	./clean-svgs.py
 $(SVG):
-	echo "Generating $@..."; \
-	svgFile="$@"; \
+	@echo "Generating $@..."
+	@svgFile="$@"; \
 	inkscape "--export-filename=$${svgFile/.svg/.png}" -w "3840" -h "2160" "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
-	echo "Compressing $@..."; \
-	  optipng --quiet "$@"
+	@echo "Compressing $@..."
+	@optipng --quiet "$@"
