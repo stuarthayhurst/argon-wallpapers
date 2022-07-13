@@ -8,8 +8,9 @@ generate-all:
 	@$(MAKE) compress
 	@$(MAKE) generate-gif
 generate-gif:
-	@echo "Generating gif..."
+	@echo "Generating gifs..."
 	@convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
+	@convert -delay 150 old/*.png +dither -alpha off -loop 0 docs/Old-Wallpapers.gif
 set-wallpaper:
 	@ls ./*.png
 	@echo "Enter the filename of the wallpaper to use:"
