@@ -32,7 +32,7 @@ prune:
 $(SVG):
 	@echo "Generating $@..."
 	@svgFile="$@"; \
-	inkscape "--export-filename=$${svgFile/.svg/.png}" -w "3840" -h "2160" "$$svgFile" > /dev/null 2>&1
+	inkscape "--export-png-color-mode=RGB_8" "--export-filename=$${svgFile/.svg/.png}" -w "3840" -h "2160" "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
 	@echo "Compressing $@..."
-	@optipng --quiet "$@"
+	@optipng -nc --quiet "$@"
