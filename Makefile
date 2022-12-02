@@ -4,15 +4,18 @@ SVG = $(wildcard ./*.svg)
 
 #Support 16:10 and 16:9 aspect ratios
 ifeq ($(GENERATE_WIDE),true)
+  CLIP_HEIGHT=2400
   EXPORT_HEIGHT=2400
   EXPORT_DIR=wide/
 else
+  CLIP_HEIGHT=2160
   EXPORT_HEIGHT=2160
   EXPORT_DIR=./
 endif
 
+CLIP_WIDTH=3840
 EXPORT_WIDTH=3840
-EXPORT_REGION=0:0:$(EXPORT_WIDTH):$(EXPORT_HEIGHT)
+EXPORT_REGION=0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 
 .PHONY: generate-all generate-gif wide set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
