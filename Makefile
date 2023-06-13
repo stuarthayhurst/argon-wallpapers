@@ -22,15 +22,14 @@ EXPORT_REGION = 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 .PHONY: generate-all generate-gif wide set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
 	@$(MAKE) wallpapers
+	@$(MAKE) wide
 	@$(MAKE) compress
 	@$(MAKE) generate-gif
-	@$(MAKE) wide
 generate-gif:
 	@echo "Generating gifs..."
 	@convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 wide:
 	@GENERATE_WIDE="true" $(MAKE) wallpapers
-	@GENERATE_WIDE="true" $(MAKE) compress
 set-wallpaper:
 	@echo "Widescreen wallpapers:"
 	@ls ./wide/*.png
