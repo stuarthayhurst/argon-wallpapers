@@ -10,10 +10,11 @@
  - To recompress the wallpapers in this repository, use `make compress`
    - `optipng` and `make` are required
  - To re-export the svg images, use `make wallpapers`
-   - Change the `-w` and `-h` arguments in `Makefile` to adjust output resolution
-   - `inkscape` is required
+   - Use the `EXPORT_WIDTH` and `EXPORT_HEIGHT` environment variables to change the output resolution
+   - To generate a 16:10 aspect ratio, use `make wide`
+   - `inkscape` and `make` are required
  - `make set-wallpaper` is designed to be used on GNOME, and won't work with other desktop environments
- - `make wallpapers`, `make compress` and `make generate-all` support multiple cores using `-j[CORES]`
+ - `make wallpapers`, `make wide`, `make compress` and `make generate-all` support multiple cores using `-j[CORES]`
 
 ## Wallpapers:
 ![Wallpapers](docs/Wallpapers.gif)
