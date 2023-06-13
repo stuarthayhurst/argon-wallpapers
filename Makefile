@@ -62,5 +62,5 @@ $(SVG):
 	         "--export-height=$(EXPORT_HEIGHT)" \
 	         "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
-	@echo "Compressing $(EXPORT_DIR)$@..."
-	@optipng -nc -strip all --quiet "$(EXPORT_DIR)$@"
+	@echo "Compressing $@..."
+	@optipng -nc -strip all --quiet "$@"
