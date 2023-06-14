@@ -21,8 +21,7 @@ EXPORT_REGION = 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 
 .PHONY: generate-all generate-gif wide set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
-	@$(MAKE) wallpapers
-	@$(MAKE) wide
+	@$(MAKE) wallpapers wide
 	@$(MAKE) compress
 	@$(MAKE) generate-gif
 generate-gif:
