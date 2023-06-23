@@ -51,10 +51,11 @@ compress:
 prune:
 	@./clean-svgs.py
 $(SVG):
-	@echo "Generating $(EXPORT_DIR)$@..."
 	@svgFile="$@"; \
+	pngFile="$(EXPORT_DIR)$${svgFile/.svg/.png}"; \
+	echo "Generating $$pngFile"; \
 	inkscape "--export-png-color-mode=RGB_8" \
-	         "--export-filename=$(EXPORT_DIR)$${svgFile/.svg/.png}" \
+	         "--export-filename=$$pngFile" \
 	         "--export-area=$(EXPORT_REGION)" \
 	         "--export-width=$(EXPORT_WIDTH)" \
 	         "--export-height=$(EXPORT_HEIGHT)" \
