@@ -1,14 +1,14 @@
 SHELL = bash
-WALLPAPERS = $(wildcard ./*.png) $(wildcard ./wide/*.png)
+WALLPAPERS = $(wildcard ./*.png) $(wildcard ./tall/*.png)
 SVG = $(wildcard ./*.svg)
 
 #Support 16:10 and 16:9 aspect ratios
 # - CLIP_WIDTH and CLIP_HEIGHT depend on the source image
 # - EXPORT_WIDTH and EXPORT_HEIGHT determine the output size
-ifeq ($(GENERATE_WIDE),true)
+ifeq ($(GENERATE_TALL),true)
   CLIP_HEIGHT = 2400
   EXPORT_HEIGHT ?= 2400
-  EXPORT_DIR = wide/
+  EXPORT_DIR = tall/
 else
   CLIP_HEIGHT = 2160
   EXPORT_HEIGHT ?= 2160
@@ -19,19 +19,19 @@ CLIP_WIDTH = 3840
 EXPORT_WIDTH ?= 3840
 EXPORT_REGION = 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 
-.PHONY: generate-all generate-gif wide set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
+.PHONY: generate-all generate-gif tall set-wallpaper wallpapers compress prune $(SVG) $(WALLPAPERS)
 generate-all:
-	@$(MAKE) wallpapers wide
+	@$(MAKE) wallpapers tall
 	@$(MAKE) compress
 	@$(MAKE) generate-gif
 generate-gif:
 	@echo "Generating gifs..."
 	@convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
-wide:
-	@GENERATE_WIDE="true" $(MAKE) wallpapers
+tall:
+	@GENERATE_TALL="true" $(MAKE) wallpapers
 set-wallpaper:
-	@echo "Widescreen wallpapers:"
-	@ls ./wide/*.png
+	@echo "Tall wallpapers:"
+	@ls ./tall/*.png
 	@echo -e "\nRegular wallpapers:"
 	@ls ./*.png
 	@echo -e "\nEnter the filename of the wallpaper to use:"
