@@ -53,7 +53,7 @@ prune:
 $(SVG):
 	@svgFile="$@"; \
 	pngFile="$(EXPORT_DIR)$${svgFile/.svg/.png}"; \
-	echo "Generating $$pngFile"; \
+	echo "Generating $$pngFile..."; \
 	inkscape "--export-png-color-mode=RGB_8" \
 	         "--export-filename=$$pngFile" \
 	         "--export-area=$(EXPORT_REGION)" \
@@ -61,5 +61,5 @@ $(SVG):
 	         "--export-height=$(EXPORT_HEIGHT)" \
 	         "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
-	@echo "Compressing $@..."
+	@echo "Compressing ./$@..."
 	@optipng -nc -strip all --quiet "$@"
