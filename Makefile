@@ -1,5 +1,5 @@
 SHELL = bash
-WALLPAPERS = $(wildcard ./*.png) $(wildcard ./wide/*png)
+WALLPAPERS = $(wildcard ./*.png) $(wildcard ./wide/*.png)
 SVG = $(wildcard ./*.svg)
 
 #Support 16:10 and 16:9 aspect ratios
