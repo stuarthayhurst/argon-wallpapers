@@ -49,7 +49,7 @@ wallpapers: prune
 compress:
 	@$(MAKE) $(WALLPAPERS)
 prune:
-	./clean-svgs.py
+	@./clean-svgs.py
 $(SVG):
 	@echo "Generating $(EXPORT_DIR)$@..."
 	@svgFile="$@"; \
