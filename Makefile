@@ -36,10 +36,10 @@ set-wallpaper:
 	@ls ./*.png
 	@echo -e "\nEnter the filename of the wallpaper to use:"
 	@read -r wallpaper; if [[ -f "$$wallpaper" ]]; then \
-	  mkdir -p ~/Pictures/Wallpapers; \
-	  cp "$$wallpaper" ~/Pictures/Wallpapers; \
-	  gsettings set org.gnome.desktop.background picture-uri "file:///home/$$USER/Pictures/Wallpapers/$${wallpaper##*/}"; \
-	  gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$$USER/Pictures/Wallpapers/$${wallpaper##*/}"; \
+	  mkdir -p ~/Pictures/Wallpapers && \
+	  cp "$$wallpaper" ~/Pictures/Wallpapers && \
+	  gsettings set org.gnome.desktop.background picture-uri "file:///home/$$USER/Pictures/Wallpapers/$${wallpaper##*/}" && \
+	  gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$$USER/Pictures/Wallpapers/$${wallpaper##*/}" && \
 	  gsettings set org.gnome.desktop.background picture-options 'zoom'; \
 	else \
 	  echo "Invalid filename"; \
