@@ -25,7 +25,7 @@ generate-all:
 	@$(MAKE) compress
 	@$(MAKE) generate-gif
 generate-gif:
-	@echo "Generating gifs..."
+	@echo "Generating gif..."
 	@convert -delay 150 *.png +dither -alpha off -loop 0 docs/Wallpapers.gif
 tall:
 	@GENERATE_TALL="true" $(MAKE) wallpapers

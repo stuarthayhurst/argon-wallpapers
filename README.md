@@ -18,6 +18,3 @@
 
 ## Wallpapers:
 ![Wallpapers](docs/Wallpapers.gif)
-
-## Old Wallpapers:
-![Wallpapers](docs/Old-Wallpapers.gif)
