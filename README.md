@@ -17,4 +17,5 @@
  - `make wallpapers`, `make tall`, `make compress` and `make generate-all` support multiple cores using `-j[CORES]`
 
 ## Wallpapers:
+_Preview is compressed, the wallpapers are higher quality_
 ![Wallpapers](docs/Wallpapers.gif)
