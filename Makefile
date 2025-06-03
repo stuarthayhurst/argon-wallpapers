@@ -2,6 +2,8 @@ SHELL = bash
 WALLPAPERS = $(wildcard ./*.png) $(wildcard ./tall/*.png)
 SVG = $(wildcard ./*.svg)
 
+COMPRESS_LEVEL ?= -o5
+
 #Support 16:10 and 16:9 aspect ratios
 # - CLIP_WIDTH and CLIP_HEIGHT depend on the source image
 # - EXPORT_WIDTH and EXPORT_HEIGHT determine the output size
@@ -60,4 +62,4 @@ $(SVG):
 	         "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
 	@echo "Compressing ./$@..."
-	@optipng -nc -strip all --quiet "$@"
+	@optipng -nc -strip all --quiet "$(COMPRESS_LEVEL)" "$@"

@@ -9,6 +9,8 @@
 ## Generating wallpapers
  - To recompress the wallpapers in this repository, use `make compress`
    - `optipng` and `make` are required
+   - The lossless compression level can be configured with `COMPRESS_LEVEl=-ox make compress`
+     - See `optipng` for supported levels
  - To re-export the svg images, use `make wallpapers`
    - Use the `EXPORT_WIDTH` and `EXPORT_HEIGHT` environment variables to change the output resolution
    - To generate a 16:10 aspect ratio, use `make tall`
