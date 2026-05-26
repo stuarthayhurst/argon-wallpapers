@@ -16,6 +16,7 @@
    - `inkscape` and `make` are required
  - `make set-wallpaper` is designed to be used on GNOME, and won't work with other desktop environments
  - `make wallpapers`, `make tall`, `make compress` and `make generate-all` support multiple cores using `-j[CORES]`
+ - Committed wallpapers must use `COMPRESS_OPTIONS="-o7 -zm1-9"`
 
 ## Wallpapers:
 _Preview is compressed, the wallpapers are higher quality_
