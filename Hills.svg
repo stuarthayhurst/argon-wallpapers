@@ -56,9 +56,9 @@
      showgrid="false"
      inkscape:current-layer="layer5"
      inkscape:document-units="px"
-     inkscape:cy="1337.442"
-     inkscape:cx="44.446713"
-     inkscape:zoom="0.12374369"
+     inkscape:cy="1477.1428"
+     inkscape:cx="1188.5714"
+     inkscape:zoom="0.175"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -191,7 +191,7 @@
          transform="scale(1,-1)"
          r="54.42857" />
       <circle
-         style="fill:#fff92d;fill-opacity:1;stroke-width:1.97847;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+         style="fill:#ffe444;fill-opacity:1;stroke-width:1.97847;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
          id="path11"
          cx="928.18646"
          cy="-87.344894"
@@ -226,7 +226,7 @@
     </g>
     <g
        id="g20"
-       transform="matrix(0.91234393,0,0,0.91234393,78.943087,14.951016)"
+       transform="matrix(0.91234393,0,0,0.91234393,93.375641,-96.233103)"
        style="stroke-width:1.09608">
       <circle
          style="fill:#f2f2f2;fill-opacity:1;stroke-width:4.09124;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
