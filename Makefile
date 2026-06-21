@@ -1,6 +1,6 @@
-SHELL = bash
-WALLPAPERS = $(wildcard ./*.png) $(wildcard ./tall/*.png)
-SVG = $(wildcard ./*.svg)
+SHELL := bash
+WALLPAPERS := $(wildcard ./*.png) $(wildcard ./tall/*.png)
+SVG := $(wildcard ./*.svg)
 
 COMPRESS_OPTIONS ?= -o5
 
@@ -8,18 +8,18 @@ COMPRESS_OPTIONS ?= -o5
 # - CLIP_WIDTH and CLIP_HEIGHT depend on the source image
 # - EXPORT_WIDTH and EXPORT_HEIGHT determine the output size
 ifeq ($(GENERATE_TALL),true)
-  CLIP_HEIGHT = 2400
+  CLIP_HEIGHT := 2400
   EXPORT_HEIGHT ?= 2400
-  EXPORT_DIR = tall/
+  EXPORT_DIR := tall/
 else
-  CLIP_HEIGHT = 2160
+  CLIP_HEIGHT := 2160
   EXPORT_HEIGHT ?= 2160
-  EXPORT_DIR = ./
+  EXPORT_DIR := ./
 endif
 
-CLIP_WIDTH = 3840
+CLIP_WIDTH := 3840
 EXPORT_WIDTH ?= 3840
-EXPORT_REGION = 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
+EXPORT_REGION := 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 
 .PHONY: generate-all generate-gif tall set-wallpaper wallpapers compress $(SVG) $(WALLPAPERS)
 generate-all:
