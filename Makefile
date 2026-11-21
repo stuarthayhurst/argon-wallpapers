@@ -59,6 +59,8 @@ $(SVG):
 	         "--export-area=$(EXPORT_REGION)" \
 	         "--export-width=$(EXPORT_WIDTH)" \
 	         "--export-height=$(EXPORT_HEIGHT)" \
+	         "--export-png-use-dithering=true" \
+	         "--export-png-antialias=3" \
 	         "$$svgFile" > /dev/null 2>&1
 $(WALLPAPERS):
 	@echo "Compressing ./$@..."
