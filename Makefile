@@ -21,6 +21,12 @@ CLIP_WIDTH := 3840
 EXPORT_WIDTH ?= 3840
 EXPORT_REGION := 0:0:$(CLIP_WIDTH):$(CLIP_HEIGHT)
 
+ifeq ($(USE_RGB16),true)
+  COLOUR_MODE := RGB_16
+else
+  COLOUR_MODE := RGB_8
+endif
+
 .PHONY: generate-all generate-gif tall set-wallpaper wallpapers compress $(SVG) $(WALLPAPERS)
 generate-all:
 	@$(MAKE) wallpapers tall
@@ -54,7 +60,7 @@ $(SVG):
 	@svgFile="$@"; \
 	pngFile="$(EXPORT_DIR)$${svgFile/.svg/.png}"; \
 	echo "Generating $$pngFile..."; \
-	SELF_CALL=1 inkscape "--export-png-color-mode=RGB_8" \
+	SELF_CALL=1 inkscape "--export-png-color-mode=$(COLOUR_MODE)" \
 	         "--export-filename=$$pngFile" \
 	         "--export-area=$(EXPORT_REGION)" \
 	         "--export-width=$(EXPORT_WIDTH)" \
